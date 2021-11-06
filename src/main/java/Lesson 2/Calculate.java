@@ -2,10 +2,10 @@ public class Calculate {
 
     public static void main(String[] args) {
 
-        System.out.println(calculateplus(3, 5));
-        System.out.println(calculateminus(7, 2));
-        System.out.println(calculatemultiply(15, 5));
-        System.out.println(calculatedivide(20, 4));
+        System.out.println(calculatePlus(3, 5));
+        System.out.println(calculateMinus(7, 2));
+        System.out.println(calculateMultiply(15, 5));
+        System.out.println(calculateDivide(20, 4));
     }
 
     public static int calculatePlus(int a, int b) {
