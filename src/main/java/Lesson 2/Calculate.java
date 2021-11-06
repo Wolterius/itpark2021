@@ -8,20 +8,20 @@ public class Calculate {
         System.out.println(calculatedivide(20, 4));
     }
 
-    public static int calculateplus(int a, int b) {
+    public static int calculatePlus(int a, int b) {
         int result = a + b;
         return result;
     }
 
-    public static int calculateminus(int a, int b) {
+    public static int calculateMinus(int a, int b) {
         int result1 = a - b;
         return result1;
     }
-    public static int calculatemultiply(int a, int b) {
+    public static int calculateMultiply(int a, int b) {
         int result2 = a * b;
         return result2;
     }
-    public static int calculatedivide(int a, int b) {
+    public static int calculateDivide(int a, int b) {
         int result3 = a / b;
         return result3;
     }
