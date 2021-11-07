@@ -7,7 +7,6 @@ public class Calculate {
         System.out.println(calculateMultiply(15, 5));
         System.out.println(calculateDivide(20, 4));
     }
-
     public static int calculatePlus(int a, int b) {
         int result = a + b;
         return result;
