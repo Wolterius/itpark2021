@@ -14,7 +14,6 @@ public class FormulaAutomation {
         T - температура газа */
         double e = (3/2) * k * T;
         return e;
-
     }
 }
 
