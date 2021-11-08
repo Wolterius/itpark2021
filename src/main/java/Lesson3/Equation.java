@@ -15,14 +15,12 @@ public class Equation {
         d = b * b - 4 * a * c;  //Формула вычисления дискриминанта
         if (d > 0) {
             double x1, x2; // если дискриминант больше нуля, то вычисляем корни уравнения x1 и x2
-            x1 = (-b - Math.sqrt(D)) / (2 * a);
-            x2 = (-b + Math.sqrt(D)) / (2 * a);
+            x1 = (-b - Math.sqrt(d)) / (2 * a);
+            x2 = (-b + Math.sqrt(d)) / (2 * a);
             System.out.println("Корни уравнения: x1 = " + x1 + ", x2 = " + x2);
-        }
-        else if (d == 0) {
+        } else if (d == 0) {
             System.out.println("Первый коэффициент не может быть 0");
-        }
-        else {
+        } else {
             System.out.println("Нет действительных решений уравнения");
         }
     }
