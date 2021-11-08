@@ -3,11 +3,11 @@ public class Factorial {
         System.out.println(FactorialResult(5));
     }
 
-    public static int FactorialResult(int f) {
-        if (f <= 1) {
+    public static int FactorialResult(int a) {
+        if (a <= 1) {
             return 1;
         } else {
-            return f * FactorialResult(f - 1);
+            return a * FactorialResult(a - 1);
         }
     }
 }
